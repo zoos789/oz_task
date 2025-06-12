@@ -2,11 +2,11 @@
 use fishbread_db;
 
 --CREATE TABLE users(
-		user_id int primary key auto_increment,
-        name VARCHAR(255) not null,
-        age int not null,
-        email VARCHAR(100) unique,
-        is_business boolean default False
+	user_id int primary key auto_increment,
+    name VARCHAR(255) not null,
+    age int not null,
+    email VARCHAR(100) unique,
+    is_business boolean default False
 );
 
 --CREATE TABLE orders(
